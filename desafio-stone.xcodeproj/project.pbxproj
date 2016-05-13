@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13E9713FC6583A01C869A04D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 319997B7B7BA4D1C92869CBE /* libPods.a */; };
+		A0704E7E1CE2C5A10002B678 /* PurchaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0704E7D1CE2C5A10002B678 /* PurchaseModel.m */; };
+		A0A4774F1CE1417C000077F8 /* pikachu.gif in Resources */ = {isa = PBXBuildFile; fileRef = A0A4774E1CE1417C000077F8 /* pikachu.gif */; };
+		C2A0101B1CE5A250009827B2 /* PurchaseListController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A0101A1CE5A250009827B2 /* PurchaseListController.m */; };
+		C2A0101E1CE5A2A4009827B2 /* PurchaseListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A0101D1CE5A2A4009827B2 /* PurchaseListModel.m */; };
+		C2A010201CE5A558009827B2 /* PurchaseListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2A0101F1CE5A558009827B2 /* PurchaseListCell.xib */; };
+		C2A010231CE5A72C009827B2 /* PurchaseListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A010221CE5A72C009827B2 /* PurchaseListCell.m */; };
+		C2C8DDAC1CDE8A8A00330088 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C8DDAB1CDE8A8A00330088 /* main.m */; };
+		C2C8DDAF1CDE8A8A00330088 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C8DDAE1CDE8A8A00330088 /* AppDelegate.m */; };
+		C2C8DDB51CDE8A8A00330088 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C8DDB31CDE8A8A00330088 /* Main.storyboard */; };
+		C2C8DDB81CDE8A8A00330088 /* database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2C8DDB61CDE8A8A00330088 /* database.xcdatamodeld */; };
+		C2C8DDBA1CDE8A8A00330088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C8DDB91CDE8A8A00330088 /* Assets.xcassets */; };
+		C2C8DDBD1CDE8A8A00330088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C8DDBB1CDE8A8A00330088 /* LaunchScreen.storyboard */; };
+		C2C8DDC81CDE8A8A00330088 /* desafio_stoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C8DDC71CDE8A8A00330088 /* desafio_stoneTests.m */; };
+		C2C8DDD31CDE8A8A00330088 /* desafio_stoneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C8DDD21CDE8A8A00330088 /* desafio_stoneUITests.m */; };
+		C2C8DDEA1CDEB29400330088 /* PokemonListController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C8DDE91CDEB29400330088 /* PokemonListController.m */; };
+		C2C8DDED1CDEB2AA00330088 /* PokemonDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C8DDEC1CDEB2AA00330088 /* PokemonDetailController.m */; };
+		C2C8DDFD1CDECEC000330088 /* PokemonListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2C8DDFC1CDECEC000330088 /* PokemonListCell.xib */; };
+		C2C8DE001CDED2A500330088 /* PokemonListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C8DDFF1CDED2A500330088 /* PokemonListCell.m */; };
+		C2C8DE061CDEE13F00330088 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C8DE051CDEE13F00330088 /* Constants.m */; };
+		C2C8DE0B1CDF122000330088 /* PokemonListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C8DE0A1CDF122000330088 /* PokemonListModel.m */; };
+		C2C8DE111CDF174100330088 /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C8DE101CDF174100330088 /* Service.m */; };
+		C2C8DE181CDF1CE500330088 /* PokemonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C8DE171CDF1CE500330088 /* PokemonModel.m */; };
+		C2C8DE1D1CE043A700330088 /* PurchaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C8DE1C1CE043A700330088 /* PurchaseController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2C8DDC41CDE8A8A00330088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2C8DD9F1CDE8A8900330088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2C8DDA61CDE8A8900330088;
+			remoteInfo = "desafio-stone";
+		};
+		C2C8DDCF1CDE8A8A00330088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2C8DD9F1CDE8A8900330088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2C8DDA61CDE8A8900330088;
+			remoteInfo = "desafio-stone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A0E8FFF98ADAF8D63805671 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		319997B7B7BA4D1C92869CBE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B6E2F1543CF4F971388E50C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A0704E7C1CE2C5A10002B678 /* PurchaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseModel.h; sourceTree = "<group>"; };
+		A0704E7D1CE2C5A10002B678 /* PurchaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseModel.m; sourceTree = "<group>"; };
+		A0704E7F1CE2C5A90002B678 /* PurchaseProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PurchaseProtocol.h; sourceTree = "<group>"; };
+		A0A4774E1CE1417C000077F8 /* pikachu.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pikachu.gif; sourceTree = "<group>"; };
+		C2A010191CE5A250009827B2 /* PurchaseListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseListController.h; sourceTree = "<group>"; };
+		C2A0101A1CE5A250009827B2 /* PurchaseListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseListController.m; sourceTree = "<group>"; };
+		C2A0101C1CE5A2A4009827B2 /* PurchaseListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseListModel.h; sourceTree = "<group>"; };
+		C2A0101D1CE5A2A4009827B2 /* PurchaseListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseListModel.m; sourceTree = "<group>"; };
+		C2A0101F1CE5A558009827B2 /* PurchaseListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchaseListCell.xib; sourceTree = "<group>"; };
+		C2A010211CE5A72C009827B2 /* PurchaseListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseListCell.h; sourceTree = "<group>"; };
+		C2A010221CE5A72C009827B2 /* PurchaseListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseListCell.m; sourceTree = "<group>"; };
+		C2C8DDA71CDE8A8900330088 /* desafio-stone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "desafio-stone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C8DDAB1CDE8A8A00330088 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2C8DDAD1CDE8A8A00330088 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2C8DDAE1CDE8A8A00330088 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2C8DDB41CDE8A8A00330088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2C8DDB71CDE8A8A00330088 /* database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = database.xcdatamodel; sourceTree = "<group>"; };
+		C2C8DDB91CDE8A8A00330088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2C8DDBC1CDE8A8A00330088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2C8DDBE1CDE8A8A00330088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C8DDC31CDE8A8A00330088 /* desafio-stoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "desafio-stoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C8DDC71CDE8A8A00330088 /* desafio_stoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = desafio_stoneTests.m; sourceTree = "<group>"; };
+		C2C8DDC91CDE8A8A00330088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C8DDCE1CDE8A8A00330088 /* desafio-stoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "desafio-stoneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C8DDD21CDE8A8A00330088 /* desafio_stoneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = desafio_stoneUITests.m; sourceTree = "<group>"; };
+		C2C8DDD41CDE8A8A00330088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C8DDE81CDEB29400330088 /* PokemonListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonListController.h; sourceTree = "<group>"; };
+		C2C8DDE91CDEB29400330088 /* PokemonListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokemonListController.m; sourceTree = "<group>"; };
+		C2C8DDEB1CDEB2AA00330088 /* PokemonDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonDetailController.h; sourceTree = "<group>"; };
+		C2C8DDEC1CDEB2AA00330088 /* PokemonDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokemonDetailController.m; sourceTree = "<group>"; };
+		C2C8DDFC1CDECEC000330088 /* PokemonListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PokemonListCell.xib; sourceTree = "<group>"; };
+		C2C8DDFE1CDED2A500330088 /* PokemonListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonListCell.h; sourceTree = "<group>"; };
+		C2C8DDFF1CDED2A500330088 /* PokemonListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokemonListCell.m; sourceTree = "<group>"; };
+		C2C8DE041CDEE13F00330088 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		C2C8DE051CDEE13F00330088 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		C2C8DE091CDF122000330088 /* PokemonListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonListModel.h; sourceTree = "<group>"; };
+		C2C8DE0A1CDF122000330088 /* PokemonListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokemonListModel.m; sourceTree = "<group>"; };
+		C2C8DE0F1CDF174100330088 /* Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
+		C2C8DE101CDF174100330088 /* Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Service.m; sourceTree = "<group>"; };
+		C2C8DE161CDF1CE500330088 /* PokemonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonModel.h; sourceTree = "<group>"; };
+		C2C8DE171CDF1CE500330088 /* PokemonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokemonModel.m; sourceTree = "<group>"; };
+		C2C8DE191CDFD28C00330088 /* ServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceProtocol.h; sourceTree = "<group>"; };
+		C2C8DE1A1CE0054900330088 /* PokemonListProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonListProtocol.h; sourceTree = "<group>"; };
+		C2C8DE1B1CE043A700330088 /* PurchaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseController.h; sourceTree = "<group>"; };
+		C2C8DE1C1CE043A700330088 /* PurchaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseController.m; sourceTree = "<group>"; };
+		C2C8DE211CE0493900330088 /* Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Extensions.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2C8DDA41CDE8A8900330088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E9713FC6583A01C869A04D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C8DDC01CDE8A8A00330088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C8DDCB1CDE8A8A00330088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09A7A2461F659AAC3E192FD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				319997B7B7BA4D1C92869CBE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F2BE54EB22857AEE1EA50A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B6E2F1543CF4F971388E50C /* Pods.debug.xcconfig */,
+				1A0E8FFF98ADAF8D63805671 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2C8DD9E1CDE8A8900330088 = {
+			isa = PBXGroup;
+			children = (
+				C2C8DDA91CDE8A8900330088 /* desafio-stone */,
+				C2C8DDC61CDE8A8A00330088 /* desafio-stoneTests */,
+				C2C8DDD11CDE8A8A00330088 /* desafio-stoneUITests */,
+				C2C8DDA81CDE8A8900330088 /* Products */,
+				3F2BE54EB22857AEE1EA50A2 /* Pods */,
+				09A7A2461F659AAC3E192FD0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2C8DDA81CDE8A8900330088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2C8DDA71CDE8A8900330088 /* desafio-stone.app */,
+				C2C8DDC31CDE8A8A00330088 /* desafio-stoneTests.xctest */,
+				C2C8DDCE1CDE8A8A00330088 /* desafio-stoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2C8DDA91CDE8A8900330088 /* desafio-stone */ = {
+			isa = PBXGroup;
+			children = (
+				C2C8DDE11CDE8B6800330088 /* resources */,
+				C2C8DDE01CDE8B5F00330088 /* database */,
+				C2C8DE011CDEDFB600330088 /* protocols */,
+				C2C8DDE31CDE8B8600330088 /* service */,
+				C2C8DDE21CDE8B7600330088 /* model */,
+				C2C8DDE41CDE8B9800330088 /* controllers/views */,
+				C2C8DDE61CDE8BBF00330088 /* xibs */,
+				C2C8DDF61CDEB39800330088 /* helpers */,
+				C2C8DDAD1CDE8A8A00330088 /* AppDelegate.h */,
+				C2C8DDAE1CDE8A8A00330088 /* AppDelegate.m */,
+				C2C8DDB31CDE8A8A00330088 /* Main.storyboard */,
+				C2C8DDBB1CDE8A8A00330088 /* LaunchScreen.storyboard */,
+				C2C8DDBE1CDE8A8A00330088 /* Info.plist */,
+				C2C8DDAA1CDE8A8900330088 /* Supporting Files */,
+			);
+			path = "desafio-stone";
+			sourceTree = "<group>";
+		};
+		C2C8DDAA1CDE8A8900330088 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2C8DDAB1CDE8A8A00330088 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2C8DDC61CDE8A8A00330088 /* desafio-stoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2C8DDC71CDE8A8A00330088 /* desafio_stoneTests.m */,
+				C2C8DDC91CDE8A8A00330088 /* Info.plist */,
+			);
+			path = "desafio-stoneTests";
+			sourceTree = "<group>";
+		};
+		C2C8DDD11CDE8A8A00330088 /* desafio-stoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2C8DDD21CDE8A8A00330088 /* desafio_stoneUITests.m */,
+				C2C8DDD41CDE8A8A00330088 /* Info.plist */,
+			);
+			path = "desafio-stoneUITests";
+			sourceTree = "<group>";
+		};
+		C2C8DDE01CDE8B5F00330088 /* database */ = {
+			isa = PBXGroup;
+			children = (
+				C2C8DDB61CDE8A8A00330088 /* database.xcdatamodeld */,
+			);
+			name = database;
+			sourceTree = "<group>";
+		};
+		C2C8DDE11CDE8B6800330088 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2C8DDE71CDE902000330088 /* images */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		C2C8DDE21CDE8B7600330088 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C2C8DE091CDF122000330088 /* PokemonListModel.h */,
+				C2C8DE0A1CDF122000330088 /* PokemonListModel.m */,
+				C2C8DE161CDF1CE500330088 /* PokemonModel.h */,
+				C2C8DE171CDF1CE500330088 /* PokemonModel.m */,
+				C2A0101C1CE5A2A4009827B2 /* PurchaseListModel.h */,
+				C2A0101D1CE5A2A4009827B2 /* PurchaseListModel.m */,
+				A0704E7C1CE2C5A10002B678 /* PurchaseModel.h */,
+				A0704E7D1CE2C5A10002B678 /* PurchaseModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		C2C8DDE31CDE8B8600330088 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				C2C8DE0F1CDF174100330088 /* Service.h */,
+				C2C8DE101CDF174100330088 /* Service.m */,
+			);
+			name = service;
+			sourceTree = "<group>";
+		};
+		C2C8DDE41CDE8B9800330088 /* controllers/views */ = {
+			isa = PBXGroup;
+			children = (
+				C2C8DDE81CDEB29400330088 /* PokemonListController.h */,
+				C2C8DDE91CDEB29400330088 /* PokemonListController.m */,
+				C2C8DDEB1CDEB2AA00330088 /* PokemonDetailController.h */,
+				C2C8DDEC1CDEB2AA00330088 /* PokemonDetailController.m */,
+				C2A010191CE5A250009827B2 /* PurchaseListController.h */,
+				C2A0101A1CE5A250009827B2 /* PurchaseListController.m */,
+				C2C8DE1B1CE043A700330088 /* PurchaseController.h */,
+				C2C8DE1C1CE043A700330088 /* PurchaseController.m */,
+			);
+			name = controllers/views;
+			sourceTree = "<group>";
+		};
+		C2C8DDE61CDE8BBF00330088 /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				C2C8DDFC1CDECEC000330088 /* PokemonListCell.xib */,
+				C2C8DDFE1CDED2A500330088 /* PokemonListCell.h */,
+				C2C8DDFF1CDED2A500330088 /* PokemonListCell.m */,
+				C2A0101F1CE5A558009827B2 /* PurchaseListCell.xib */,
+				C2A010211CE5A72C009827B2 /* PurchaseListCell.h */,
+				C2A010221CE5A72C009827B2 /* PurchaseListCell.m */,
+			);
+			name = xibs;
+			sourceTree = "<group>";
+		};
+		C2C8DDE71CDE902000330088 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A0A4774E1CE1417C000077F8 /* pikachu.gif */,
+				C2C8DDB91CDE8A8A00330088 /* Assets.xcassets */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		C2C8DDF61CDEB39800330088 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C2C8DE041CDEE13F00330088 /* Constants.h */,
+				C2C8DE051CDEE13F00330088 /* Constants.m */,
+				C2C8DE211CE0493900330088 /* Extensions.h */,
+			);
+			name = helpers;
+			sourceTree = "<group>";
+		};
+		C2C8DE011CDEDFB600330088 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C2C8DE191CDFD28C00330088 /* ServiceProtocol.h */,
+				C2C8DE1A1CE0054900330088 /* PokemonListProtocol.h */,
+				A0704E7F1CE2C5A90002B678 /* PurchaseProtocol.h */,
+			);
+			name = protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2C8DDA61CDE8A8900330088 /* desafio-stone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2C8DDD71CDE8A8A00330088 /* Build configuration list for PBXNativeTarget "desafio-stone" */;
+			buildPhases = (
+				80536602D174CB7BE3FB0B86 /* Check Pods Manifest.lock */,
+				C2C8DDA31CDE8A8900330088 /* Sources */,
+				C2C8DDA41CDE8A8900330088 /* Frameworks */,
+				C2C8DDA51CDE8A8900330088 /* Resources */,
+				C0711F169CFF9D80831519E8 /* Embed Pods Frameworks */,
+				8B378B39D2DD1272558B34B1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "desafio-stone";
+			productName = "desafio-stone";
+			productReference = C2C8DDA71CDE8A8900330088 /* desafio-stone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2C8DDC21CDE8A8A00330088 /* desafio-stoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2C8DDDA1CDE8A8A00330088 /* Build configuration list for PBXNativeTarget "desafio-stoneTests" */;
+			buildPhases = (
+				C2C8DDBF1CDE8A8A00330088 /* Sources */,
+				C2C8DDC01CDE8A8A00330088 /* Frameworks */,
+				C2C8DDC11CDE8A8A00330088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2C8DDC51CDE8A8A00330088 /* PBXTargetDependency */,
+			);
+			name = "desafio-stoneTests";
+			productName = "desafio-stoneTests";
+			productReference = C2C8DDC31CDE8A8A00330088 /* desafio-stoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2C8DDCD1CDE8A8A00330088 /* desafio-stoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2C8DDDD1CDE8A8A00330088 /* Build configuration list for PBXNativeTarget "desafio-stoneUITests" */;
+			buildPhases = (
+				C2C8DDCA1CDE8A8A00330088 /* Sources */,
+				C2C8DDCB1CDE8A8A00330088 /* Frameworks */,
+				C2C8DDCC1CDE8A8A00330088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2C8DDD01CDE8A8A00330088 /* PBXTargetDependency */,
+			);
+			name = "desafio-stoneUITests";
+			productName = "desafio-stoneUITests";
+			productReference = C2C8DDCE1CDE8A8A00330088 /* desafio-stoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2C8DD9F1CDE8A8900330088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Lucas M Soares";
+				TargetAttributes = {
+					C2C8DDA61CDE8A8900330088 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C2C8DDC21CDE8A8A00330088 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C2C8DDA61CDE8A8900330088;
+					};
+					C2C8DDCD1CDE8A8A00330088 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C2C8DDA61CDE8A8900330088;
+					};
+				};
+			};
+			buildConfigurationList = C2C8DDA21CDE8A8900330088 /* Build configuration list for PBXProject "desafio-stone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2C8DD9E1CDE8A8900330088;
+			productRefGroup = C2C8DDA81CDE8A8900330088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2C8DDA61CDE8A8900330088 /* desafio-stone */,
+				C2C8DDC21CDE8A8A00330088 /* desafio-stoneTests */,
+				C2C8DDCD1CDE8A8A00330088 /* desafio-stoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2C8DDA51CDE8A8900330088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C8DDBD1CDE8A8A00330088 /* LaunchScreen.storyboard in Resources */,
+				C2C8DDFD1CDECEC000330088 /* PokemonListCell.xib in Resources */,
+				C2A010201CE5A558009827B2 /* PurchaseListCell.xib in Resources */,
+				A0A4774F1CE1417C000077F8 /* pikachu.gif in Resources */,
+				C2C8DDBA1CDE8A8A00330088 /* Assets.xcassets in Resources */,
+				C2C8DDB51CDE8A8A00330088 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C8DDC11CDE8A8A00330088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C8DDCC1CDE8A8A00330088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80536602D174CB7BE3FB0B86 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B378B39D2DD1272558B34B1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0711F169CFF9D80831519E8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2C8DDA31CDE8A8900330088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C8DE061CDEE13F00330088 /* Constants.m in Sources */,
+				C2C8DDB81CDE8A8A00330088 /* database.xcdatamodeld in Sources */,
+				C2C8DE1D1CE043A700330088 /* PurchaseController.m in Sources */,
+				C2C8DDAF1CDE8A8A00330088 /* AppDelegate.m in Sources */,
+				C2C8DDAC1CDE8A8A00330088 /* main.m in Sources */,
+				C2C8DE181CDF1CE500330088 /* PokemonModel.m in Sources */,
+				A0704E7E1CE2C5A10002B678 /* PurchaseModel.m in Sources */,
+				C2C8DDEA1CDEB29400330088 /* PokemonListController.m in Sources */,
+				C2A0101E1CE5A2A4009827B2 /* PurchaseListModel.m in Sources */,
+				C2C8DE111CDF174100330088 /* Service.m in Sources */,
+				C2A010231CE5A72C009827B2 /* PurchaseListCell.m in Sources */,
+				C2C8DE001CDED2A500330088 /* PokemonListCell.m in Sources */,
+				C2C8DDED1CDEB2AA00330088 /* PokemonDetailController.m in Sources */,
+				C2C8DE0B1CDF122000330088 /* PokemonListModel.m in Sources */,
+				C2A0101B1CE5A250009827B2 /* PurchaseListController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C8DDBF1CDE8A8A00330088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C8DDC81CDE8A8A00330088 /* desafio_stoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C8DDCA1CDE8A8A00330088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C8DDD31CDE8A8A00330088 /* desafio_stoneUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2C8DDC51CDE8A8A00330088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2C8DDA61CDE8A8900330088 /* desafio-stone */;
+			targetProxy = C2C8DDC41CDE8A8A00330088 /* PBXContainerItemProxy */;
+		};
+		C2C8DDD01CDE8A8A00330088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2C8DDA61CDE8A8900330088 /* desafio-stone */;
+			targetProxy = C2C8DDCF1CDE8A8A00330088 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2C8DDB31CDE8A8A00330088 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2C8DDB41CDE8A8A00330088 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2C8DDBB1CDE8A8A00330088 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2C8DDBC1CDE8A8A00330088 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2C8DDD51CDE8A8A00330088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2C8DDD61CDE8A8A00330088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2C8DDD81CDE8A8A00330088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B6E2F1543CF4F971388E50C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "desafio-stone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.LMS-DEV.Poke-Commerce";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2C8DDD91CDE8A8A00330088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A0E8FFF98ADAF8D63805671 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "desafio-stone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.LMS-DEV.Poke-Commerce";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2C8DDDB1CDE8A8A00330088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "desafio-stoneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.LMS-DEV.desafio-stoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/desafio-stone.app/desafio-stone";
+			};
+			name = Debug;
+		};
+		C2C8DDDC1CDE8A8A00330088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "desafio-stoneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.LMS-DEV.desafio-stoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/desafio-stone.app/desafio-stone";
+			};
+			name = Release;
+		};
+		C2C8DDDE1CDE8A8A00330088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "desafio-stoneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.LMS-DEV.desafio-stoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "desafio-stone";
+			};
+			name = Debug;
+		};
+		C2C8DDDF1CDE8A8A00330088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "desafio-stoneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.LMS-DEV.desafio-stoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "desafio-stone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2C8DDA21CDE8A8900330088 /* Build configuration list for PBXProject "desafio-stone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C8DDD51CDE8A8A00330088 /* Debug */,
+				C2C8DDD61CDE8A8A00330088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2C8DDD71CDE8A8A00330088 /* Build configuration list for PBXNativeTarget "desafio-stone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C8DDD81CDE8A8A00330088 /* Debug */,
+				C2C8DDD91CDE8A8A00330088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2C8DDDA1CDE8A8A00330088 /* Build configuration list for PBXNativeTarget "desafio-stoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C8DDDB1CDE8A8A00330088 /* Debug */,
+				C2C8DDDC1CDE8A8A00330088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2C8DDDD1CDE8A8A00330088 /* Build configuration list for PBXNativeTarget "desafio-stoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C8DDDE1CDE8A8A00330088 /* Debug */,
+				C2C8DDDF1CDE8A8A00330088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C2C8DDB61CDE8A8A00330088 /* database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C2C8DDB71CDE8A8A00330088 /* database.xcdatamodel */,
+			);
+			currentVersion = C2C8DDB71CDE8A8A00330088 /* database.xcdatamodel */;
+			path = database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C2C8DD9F1CDE8A8900330088 /* Project object */;
+}
