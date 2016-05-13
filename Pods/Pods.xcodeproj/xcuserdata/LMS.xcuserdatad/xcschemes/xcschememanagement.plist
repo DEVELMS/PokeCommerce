@@ -29,11 +29,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>TSValidatedTextField.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>YLGIFImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,22 +37,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>358FA6C22E79864C5D1E8D778B4473C9</key>
+		<key>0497F2E5619FFF14CC6722716434EA16</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7740913C976B5B4154578A8C697017FC</key>
+		<key>16503E0FB77EB9A581F4731EA157D306</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7FDD0558B05CD6EED7D45BF11D246596</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8406C1CE9A9133514B18DE8B9508ADC8</key>
+		<key>911B20399184505E4D2D66406EADADF6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,12 +57,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A874801445C20CE9C3E34246196EB320</key>
+		<key>96ADAFD72356C9447A0D38CC3D16F959</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E6556080A3000A83C427B744136342B2</key>
+		<key>9F53A65717528CAA7238DF6D970D8E79</key>
 		<dict>
 			<key>primary</key>
 			<true/>
